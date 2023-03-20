@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 12 09:50:47 2023
-
-@author: 20060
-"""
 
 # Import the libraries
 from newspaper import Article
@@ -34,7 +29,7 @@ text =corpus
 sentence_list = nltk.sent_tokenize(text) # A list of sentences
 
 #Print the list of sentences
-print(sentence_list)
+#print(sentence_list)
 
 # A function to return a random greeting response to a users greeting
 def greeting_response(text):
@@ -91,7 +86,7 @@ def bot_response(user_input):
     return bot_response
     
 #Start the chat
-print('Doc Bot: I am Doctor Bot or Doc Bot for short. I will answer your queries about Chronic Kidney Disease. If you want to exit , type bye')
+print("Doc Bot: I am Doctor Bot or Doc Bot for short. I will answer your queries about Chronic Kidney Disease. If you want to exit , type bye")
    
 exit_list = ['exit' , 'see you later' , 'bye' , 'quit' , 'break']
 
